@@ -15,12 +15,28 @@ $if(keywords)$
 $endif$
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
   <style type="text/css">
-    td { 
-        padding: 6;
-    }
     table { 
-        border-spacing: 0;
-        border-collapse: separate;
+        border-spacing: 0px;
+        border-collapse: collapse;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    thead {
+        border-bottom: 1px solid black;
+        display: table-header-group;
+    }
+    td { 
+        padding: 6px;
+    }
+    th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    tfoot {
+        display: table-row-group;
+    }
+    tr {
+        page-break-inside: avoid;
     }
   </style>
 $if(highlighting-css)$
