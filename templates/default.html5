@@ -27,6 +27,8 @@ $endif$
     }
     td { 
         padding: 6px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     th {
         padding-top: 10px;
