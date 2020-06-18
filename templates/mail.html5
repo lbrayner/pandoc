@@ -14,7 +14,7 @@ $if(keywords)$
 $endif$
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
   <style type="text/css">
-    table { 
+    table {
         font-size: 75%;
         border-spacing: 0px;
         border-collapse: collapse;
@@ -25,7 +25,7 @@ $endif$
         border-bottom: 1px solid black;
         display: table-header-group;
     }
-    td { 
+    td {
         padding: 6px;
         padding-left: 30px;
         padding-right: 30px;
@@ -86,7 +86,7 @@ $body$
 $for(include-after)$
 $include-after$
 $endfor$
-<pre>-- 
+<pre>--
 Leonardo Brayner e Silva</pre>
 </body>
 </html>
